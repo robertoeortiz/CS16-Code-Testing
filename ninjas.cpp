@@ -24,11 +24,8 @@ void printNinjasPositions(int size)
 
     for(int j = i + 2; j < size -1; j++) //for every 2nd ninja
     {
-      if(ninjaCount < 2) //if tile before is NOT also a ninja (otherwise we end up with more than 2 ninjas on the floor...)
-      {
-        floor[j] = NINJA;
-        ninjaCount++;
-      }
+      floor[j] = NINJA;
+      ninjaCount++;
       cout << floor << endl;
     }
   }
