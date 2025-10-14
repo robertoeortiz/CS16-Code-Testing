@@ -3,8 +3,8 @@
 
 using namespace std;
 
-const char NINJA = '&';
-const char TILE = '_';
+const string NINJA = '&';
+const string TILE = '_';
 
 void printNinjasPositions(int size)
 {
@@ -28,7 +28,7 @@ void printNinjasPositions(int size)
 
 }
 
-int main(argc, char *argv[])
+int main(int argc, char *argv[])
 {
   if(argc != 2)
   {
@@ -38,7 +38,7 @@ int main(argc, char *argv[])
 
   int floorSize = stoi(argv[1]);
 
-  printNinjaPositions(floorSize);
+  printNinjasPositions(floorSize);
 
   return 0;
 
