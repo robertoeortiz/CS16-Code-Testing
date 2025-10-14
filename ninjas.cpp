@@ -3,8 +3,8 @@
 
 using namespace std;
 
-const string NINJA = "&";
-const string TILE = "_";
+const char NINJA = '&';
+const char TILE = '_';
 
 void printNinjasPositions(int size)
 {
@@ -32,7 +32,7 @@ int main(int argc, char *argv[])
 {
   if(argc != 2)
   {
-    cerr << "Usage: " + argv[0] + " floor size";
+    cerr << "Usage: " << argv[0] << " floor size" << endl;
     exit(1);
   }
 
