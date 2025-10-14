@@ -23,7 +23,6 @@ void printNinjasPositions(int size)
     {
       floor[j] = NINJA;
       cout << floor << endl;
-      break; //once both ninjas printed, stop! Don't print more!!
     }
   }
 
@@ -33,7 +32,7 @@ int main(int argc, char *argv[])
 {
   if(argc != 2)
   {
-    cerr << "Usage: " << argv[0] << " floor size" << endl;
+    cerr << "Usage: " << argv[0] << " floor_size" << endl;
     exit(1);
   }
 
