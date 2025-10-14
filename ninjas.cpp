@@ -23,6 +23,7 @@ void printNinjasPositions(int size)
     {
       floor[j] = NINJA;
       cout << floor << endl;
+      break; //once both ninjas printed, stop! Don't print more!!
     }
   }
 
