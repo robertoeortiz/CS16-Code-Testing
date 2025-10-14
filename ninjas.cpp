@@ -3,8 +3,8 @@
 
 using namespace std;
 
-const string NINJA = '&';
-const string TILE = '_';
+const string NINJA = "&";
+const string TILE = "_";
 
 void printNinjasPositions(int size)
 {
