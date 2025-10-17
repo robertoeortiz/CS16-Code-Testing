@@ -14,18 +14,14 @@ void printNinjasPositions(int size)
     return;
   }
 
-  int ninjaCount;
-
-  for(int i = 1; i < size - 1; i++) //for each floor combination 
+  for(int i = 1; i < size - 3; i++) //for each floor combination 
   {
     string floor(size, TILE);
     floor[i] = NINJA;
-    ninjaCount = 1;
 
     for(int j = i + 2; j < size -1; j++) //for every 2nd ninja
     {
       floor[j] = NINJA;
-      ninjaCount++;
       cout << floor << endl;
     }
   }
